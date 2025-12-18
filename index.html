@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manos en Casa - Manicuría y Pedicuría a Domicilio</title>
+    <style>
+        body { 
+            font-family: 'Arial', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f5f5f5; /* Gris clarito */ 
+            color: #333; 
+            line-height: 1.6; 
+        }
+        header { 
+            background: linear-gradient(135deg, #f5f5dc, #d3d3d3); /* Beige a gris clarito */ 
+            color: #333; 
+            text-align: center; 
+            padding: 60px 20px; 
+            font-family: 'Georgia', serif; 
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5em; 
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.5); 
+        }
+        header p { 
+            font-size: 1.2em; 
+            margin-top: 10px; 
+        }
+        section { 
+            padding: 40px 20px; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+        }
+        .services { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+        }
+        .service { 
+            background: white; 
+            border: 1px solid #e0e0e0; 
+            border-radius: 10px; 
+            padding: 20px; 
+            text-align: center; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+            transition: transform 0.2s; 
+        }
+        .service:hover { 
+            transform: translateY(-5px); 
+        }
+        .service h3 { 
+            color: #8b7355; /* Beige oscuro */ 
+            margin-bottom: 10px; 
+        }
+        .service p { 
+            font-size: 1.1em; 
+            font-weight: bold; 
+        }
+        .contact { 
+            background: #f9f9f9; 
+            border-radius: 10px; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        .contact a { 
+            color: #8b7355; 
+            text-decoration: none; 
+            font-weight: bold; 
+        }
+        .contact a:hover { 
+            text-decoration: underline; 
+        }
+        .whatsapp-btn { 
+            display: inline-block; 
+            background-color: #25d366; 
+            color: white; 
+            padding: 15px 30px; 
+            border-radius: 25px; 
+            text-decoration: none; 
+            font-size: 1.1em; 
+            margin-top: 20px; 
+            transition: background-color 0.3s; 
+        }
+        .whatsapp-btn:hover { 
+            background-color: #128c7e; 
+        }
+        footer { 
+            background-color: #d3d3d3; /* Gris clarito */ 
+            color: #333; 
+            text-align: center; 
+            padding: 20px; 
+            font-size: 0.9em; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manos en Casa</h1>
+        <p>Manicuría y pedicuría a domicilio – Belleza y comodidad en tu hogar</p>
+    </header>
+    
+    <section id="servicios">
+        <h2 style="text-align: center; color: #8b7355; margin-bottom: 30px;">Nuestros Servicios</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Semipermanente en Manos</h3>
+                <p>$15.000</p>
+            </div>
+            <div class="service">
+                <h3>Semipermanente en Pies</h3>
+                <p>$15.000</p>
+            </div>
+            <div class="service">
+                <h3>Semipermanente Manos y Pies</h3>
+                <p>$27.000</p>
+            </div>
+            <div class="service">
+                <h3>Kapping Gel</h3>
+                <p>$20.000</p>
+            </div>
+            <div class="service">
+                <h3>Diseño French</h3>
+                <p>$4.000</p>
+            </div>
+            <div class="service">
+                <h3>Remoción de Esmalte / Gel</h3>
+                <p>$2.500</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <p>¿Listo para lucir unas uñas perfectas sin salir de casa? Agenda tu turno por WhatsApp.</p>
+        <a href="https://wa.me/1127193091?text=Hola,%20quiero%20agendar%20un%20turno%20para%20manicuría%20o%20pedicuría." class="whatsapp-btn" target="_blank">Reservar por WhatsApp</a>
+        <p>Síguenos en Instagram: <a href="https://www.instagram.com/manos.encasa" target="_blank">@manos.encasa</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Manos en Casa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
